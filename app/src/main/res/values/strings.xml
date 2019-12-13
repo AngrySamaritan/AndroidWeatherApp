@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">IlearningWeatherApp</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="map_button">Map</string>
+    <string name="history_button">History</string>
+    <string name="refresh_button">Refresh</string>
+    <string name="title_activity_history">History</string>
+    <string name="acuweather_api_key">HxjfpanAGZAFBY3gGpYt8MDScSvu9vuZ</string>
+    <string name="title_history">History</string>
+    <string name="title_map">Map</string>
+    <string name="title_refresh">Refresh</string>
+    <string name="title_menu_refresh">Refresh</string>
+    <string name="title_latitude">Latitude</string>
+    <string name="title_longitude">Longitude</string>
+    <string name="title_weather">Weather</string>
+    <string name="title_night">Night</string>
+    <string name="title_day">Day</string>
+    <string name="title_minimum">Minimum</string>
+    <string name="title_maximum">Maximum</string>
+    <string name="title_temperarure">Temperature</string>
+    <string name="title_date">Date</string>
+    <string name="menu_refresh">Refresh</string>
+    <string name="activity_weather">Weather</string>
+    <string name="title_one_day">One day</string>
+    <string name="title_five_day">Five days</string>
+
+</resources>

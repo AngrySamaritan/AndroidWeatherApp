@@ -1,0 +1,78 @@
+I/art: Rejecting re-init on previously-failed class java.lang.Class<androidx.core.view.ViewCompat$2>: java.lang.NoClassDefFoundError: Failed resolution of: Landroid/view/View$OnUnhandledKeyEventListener;
+        at void androidx.core.view.ViewCompat.setElevation(android.view.View, float) (ViewCompat.java:2245)
+        at void com.google.android.material.bottomnavigation.BottomNavigationView.<init>(android.content.Context, android.util.AttributeSet, int) (BottomNavigationView.java:172)
+        at void com.google.android.material.bottomnavigation.BottomNavigationView.<init>(android.content.Context, android.util.AttributeSet) (BottomNavigationView.java:114)
+        at java.lang.Object java.lang.reflect.Constructor.newInstance0!(java.lang.Object[]) (Constructor.java:-2)
+        at java.lang.Object java.lang.reflect.Constructor.newInstance(java.lang.Object[]) (Constructor.java:430)
+        at android.view.View android.view.LayoutInflater.createView(java.lang.String, java.lang.String, android.util.AttributeSet) (LayoutInflater.java:645)
+        at android.view.View android.view.LayoutInflater.createViewFromTag(android.view.View, java.lang.String, android.content.Context, android.util.AttributeSet, boolean) (LayoutInflater.java:787)
+        at android.view.View android.view.LayoutInflater.createViewFromTag(android.view.View, java.lang.String, android.content.Context, android.util.AttributeSet) (LayoutInflater.java:727)
+        at void android.view.LayoutInflater.rInflate(org.xmlpull.v1.XmlPullParser, android.view.View, android.content.Context, android.util.AttributeSet, boolean) (LayoutInflater.java:858)
+        at void android.view.LayoutInflater.rInflateChildren(org.xmlpull.v1.XmlPullParser, android.view.View, android.util.AttributeSet, boolean) (LayoutInflater.java:821)
+        at android.view.View android.view.LayoutInflater.inflate(org.xmlpull.v1.XmlPullParser, android.view.ViewGroup, boolean) (LayoutInflater.java:518)
+        at android.view.View android.view.LayoutInflater.inflate(int, android.view.ViewGroup, boolean) (LayoutInflater.java:426)
+        at android.view.View android.view.LayoutInflater.inflate(int, android.view.ViewGroup) (LayoutInflater.java:377)
+        at void com.android.internal.policy.PhoneWindow.setContentView(int) (PhoneWindow.java:414)
+        at void android.app.Activity.setContentView(int) (Activity.java:2414)
+        at void com.ilearning.tasks.ilearningweatherapp.MapActivity.onCreate(android.os.Bundle) (MapActivity.java:56)
+        at void android.app.Activity.performCreate(android.os.Bundle) (Activity.java:6662)
+        at void android.app.Instrumentation.callActivityOnCreate(android.app.Activity, android.os.Bundle) (Instrumentation.java:1118)
+        at android.app.Activity android.app.ActivityThread.performLaunchActivity(android.app.ActivityThread$ActivityClientRecord, android.content.Intent) (ActivityThread.java:2599)
+        at void android.app.ActivityThread.handleLaunchActivity(android.app.ActivityThread$ActivityClientRecord, android.content.Intent, java.lang.String) (ActivityThread.java:2707)
+        at void android.app.ActivityThread.-wrap12(android.app.ActivityThread, android.app.ActivityThread$ActivityClientRecord, android.content.Intent, java.lang.String) (ActivityThread.java:-1)
+        at void android.app.ActivityThread$H.handleMessage(android.os.Message) (ActivityThread.java:1460)
+        at void android.os.Handler.dispatchMessage(android.os.Message) (Handler.java:102)
+        at void android.os.Looper.loop() (Looper.java:154)
+        at void android.app.ActivityThread.main(java.lang.String[]) (ActivityThread.java:6077)
+        at java.lang.Object java.lang.reflect.Method.invoke!(java.lang.Object, java.lang.Object[]) (Method.java:-2)
+        at void com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run() (ZygoteInit.java:866)
+        at void com.android.internal.os.ZygoteInit.main(java.lang.String[]) (ZygoteInit.java:756)
+    Caused by: java.lang.ClassNotFoundException: Didn't find class "android.view.View$OnUnhandledKeyEventListener" on path: DexPathList[[zip file "/data/app/com.example.weatherapp-2/base.apk"],nativeLibraryDirectories=[/data/app/com.example.weatherapp-2/lib/x86, /system/lib, /vendor/lib]]
+        at java.lang.Class dalvik.system.BaseDexClassLoader.findClass(java.lang.String) (BaseDexClassLoader.java:56)
+I/art:     at java.lang.Class java.lang.ClassLoader.loadClass(java.lang.String, boolean) (ClassLoader.java:380)
+        at java.lang.Class java.lang.ClassLoader.loadClass(java.lang.String) (ClassLoader.java:312)
+        at void androidx.core.view.ViewCompat.setElevation(android.view.View, float) (ViewCompat.java:2245)
+        at void com.google.android.material.bottomnavigation.BottomNavigationView.<init>(android.content.Context, android.util.AttributeSet, int) (BottomNavigationView.java:172)
+        at void com.google.android.material.bottomnavigation.BottomNavigationView.<init>(android.content.Context, android.util.AttributeSet) (BottomNavigationView.java:114)
+        at java.lang.Object java.lang.reflect.Constructor.newInstance0!(java.lang.Object[]) (Constructor.java:-2)
+        at java.lang.Object java.lang.reflect.Constructor.newInstance(java.lang.Object[]) (Constructor.java:430)
+        at android.view.View android.view.LayoutInflater.createView(java.lang.String, java.lang.String, android.util.AttributeSet) (LayoutInflater.java:645)
+        at android.view.View android.view.LayoutInflater.createViewFromTag(android.view.View, java.lang.String, android.content.Context, android.util.AttributeSet, boolean) (LayoutInflater.java:787)
+        at android.view.View android.view.LayoutInflater.createViewFromTag(android.view.View, java.lang.String, android.content.Context, android.util.AttributeSet) (LayoutInflater.java:727)
+        at void android.view.LayoutInflater.rInflate(org.xmlpull.v1.XmlPullParser, android.view.View, android.content.Context, android.util.AttributeSet, boolean) (LayoutInflater.java:858)
+        at void android.view.LayoutInflater.rInflateChildren(org.xmlpull.v1.XmlPullParser, android.view.View, android.util.AttributeSet, boolean) (LayoutInflater.java:821)
+        at android.view.View android.view.LayoutInflater.inflate(org.xmlpull.v1.XmlPullParser, android.view.ViewGroup, boolean) (LayoutInflater.java:518)
+        at android.view.View android.view.LayoutInflater.inflate(int, android.view.ViewGroup, boolean) (LayoutInflater.java:426)
+        at android.view.View android.view.LayoutInflater.inflate(int, android.view.ViewGroup) (LayoutInflater.java:377)
+        at void com.android.internal.policy.PhoneWindow.setContentView(int) (PhoneWindow.java:414)
+        at void android.app.Activity.setContentView(int) (Activity.java:2414)
+        at void com.ilearning.tasks.ilearningweatherapp.MapActivity.onCreate(android.os.Bundle) (MapActivity.java:56)
+        at void android.app.Activity.performCreate(android.os.Bundle) (Activity.java:6662)
+        at void android.app.Instrumentation.callActivityOnCreate(android.app.Activity, android.os.Bundle) (Instrumentation.java:1118)
+        at android.app.Activity android.app.ActivityThread.performLaunchActivity(android.app.ActivityThread$ActivityClientRecord, android.content.Intent) (ActivityThread.java:2599)
+        at void android.app.ActivityThread.handleLaunchActivity(android.app.ActivityThread$ActivityClientRecord, android.content.Intent, java.lang.String) (ActivityThread.java:2707)
+        at void android.app.ActivityThread.-wrap12(android.app.ActivityThread, android.app.ActivityThread$ActivityClientRecord, android.content.Intent, java.lang.String) (ActivityThread.java:-1)
+        at void android.app.ActivityThread$H.handleMessage(android.os.Message) (ActivityThread.java:1460)
+        at void android.os.Handler.dispatchMessage(android.os.Message) (Handler.java:102)
+        at void android.os.Looper.loop() (Looper.java:154)
+        at void android.app.ActivityThread.main(java.lang.String[]) (ActivityThread.java:6077)
+        at java.lang.Object java.lang.reflect.Method.invoke!(java.lang.Object, java.lang.Object[]) (Method.java:-2)
+        at void com.android.internal.os.ZygoteInit$MethodAndArgsCaller.run() (ZygoteInit.java:866)
+        at void com.android.internal.os.ZygoteInit.main(java.lang.String[]) (ZygoteInit.java:756)
+W/art: Before Android 4.1, method android.graphics.PorterDuffColorFilter androidx.vectordrawable.graphics.drawable.VectorDrawableCompat.updateTintFilter(android.graphics.PorterDuffColorFilter, android.content.res.ColorStateList, android.graphics.PorterDuff$Mode) would have incorrectly overridden the package-private method in android.graphics.drawable.Drawable
+D/: HostConnection::get() New Host Connection established 0xa14f0b00, tid 7321
+D/: HostConnection::get() New Host Connection established 0xa14f0e80, tid 7385
+I/OpenGLRenderer: Initialized EGL, version 1.4
+D/OpenGLRenderer: Swap behavior 1
+W/OpenGLRenderer: Failed to choose config with EGL_SWAP_BEHAVIOR_PRESERVED, retrying without...
+D/OpenGLRenderer: Swap behavior 0
+D/EGL_emulation: eglCreateContext: 0xb0986e00: maj 2 min 0 rcv 2
+D/EGL_emulation: eglMakeCurrent: 0xb0986e00: ver 2 0 (tinfo 0x9387fac0)
+W/DynamiteModule: Local module descriptor class for com.google.android.gms.googlecertificates not found.
+I/DynamiteModule: Considering local module com.google.android.gms.googlecertificates:0 and remote module com.google.android.gms.googlecertificates:4
+    Selected remote version of com.google.android.gms.googlecertificates, version >= 4
+W/System: ClassLoader referenced unknown path: /data/user_de/0/com.google.android.gms/app_chimera/m/0000000b/n/x86
+D/: HostConnection::get() New Host Connection established 0xa14f0640, tid 7378
+D/EGL_emulation: eglMakeCurrent: 0xb0986e00: ver 2 0 (tinfo 0x9387fac0)
+D/EGL_emulation: eglCreateContext: 0xa148b0e0: maj 1 min 0 rcv 1
+D/EGL_emulation: eglMakeCurrent: 0xa148b0e0: ver 1 0 (tinfo 0xa14a36e0)

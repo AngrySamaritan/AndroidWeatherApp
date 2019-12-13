@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="653dp"
+    android:orientation="vertical"
+    tools:context=".fragments.HistoryFragment" >
+
+    <TextView
+        android:id="@+id/day1"
+        android:layout_width="match_parent"
+        android:layout_height="130.5dp"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/day2"
+        android:layout_width="match_parent"
+        android:layout_height="130.5dp"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/day3"
+        android:layout_width="match_parent"
+        android:layout_height="130.5dp"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/day4"
+        android:layout_width="match_parent"
+        android:layout_height="130.5dp"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/day5"
+        android:layout_width="match_parent"
+        android:layout_height="130.5dp"
+        android:text="TextView" />
+</LinearLayout>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:map="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    tools:context=".WeatherActivity">
+
+    <fragment
+        android:id="@+id/fragment_weather"
+        android:layout_width="match_parent"
+        android:layout_height="653dp"
+        map:layout="@layout/one_day_weather_fragment"
+        android:name="com.ilearning.tasks.ilearningweatherapp.fragments.OneDayWeatherFragment"/>
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/weather_navigation"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="bottom"
+        android:background="@android:color/darker_gray"
+        map:menu="@menu/weather_navigation" />
+
+</LinearLayout>
